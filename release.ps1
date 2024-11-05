@@ -3,6 +3,8 @@ $PublisherCMD = "C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Tools\Publ
 
 Push-Location "modpacks\"
 
+$modDirs = Get-ChildItem -Directory -Path .\ -Exclude .git
+
 # iterate over all mod directories
 foreach ($modDir in $modDirs) {
     # enter mod directory
@@ -11,7 +13,7 @@ foreach ($modDir in $modDirs) {
     # run HEMTT release if mod has a .hemtt/project.toml file
     if (Test-Path ".hemtt\project.toml") {
         Write-Host "Running HEMTT Release for $($modDir.Name)"
-        & hemtt release --no-archive --expsqfc
+        & hemtt release
 
         # use Arma 3 Tools to publish if mod has a steam\workshop_id.txt file
         if (Test-Path "steam\workshop_id.txt") {
