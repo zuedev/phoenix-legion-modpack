@@ -1,0 +1,9 @@
+name = "Unnamed Group Modpack"
+prefix = "Unnamed_Group_Modpack"
+mainprefix = "z"
+
+[version]
+major = 0
+minor = 0
+patch = 0
+git_hash = 8

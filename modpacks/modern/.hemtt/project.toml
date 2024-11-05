@@ -1,9 +1,0 @@
-name = "Unnamed Group Modpack - Modern"
-prefix = "UNMD_Modpack_Modern"
-mainprefix = "z"
-
-[version]
-major = 0
-minor = 0
-patch = 0
-git_hash = 8
