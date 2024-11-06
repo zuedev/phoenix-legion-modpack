@@ -1,0 +1,12 @@
+class CfgVehicles {
+    class Offroad_01_military_comms_base_F;
+
+    class PHOENIX_Offroad_Comms_BASE: Offroad_01_military_comms_base_F {
+        scope = private;
+        displayName = "Offroad (Comms)";
+        crew = "PHOENIX_Wolfpack_Rifleman";
+        faction = "PHOENIX_Unsorted";
+        side = 1;
+        textureList[] = {};
+    };
+};
