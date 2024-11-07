@@ -10,6 +10,6 @@ if (Test-Path ".hemtt\project.toml") {
         # read workshop id from file
         $workshopId = Get-Content "steam\workshop_id.txt"
 
-        $PublisherCMD update /id:$workshopId /path:.hemttout\release\ /changeNote:"automated release"
+        & $PublisherCMD update /id:$workshopId /path:.hemttout\release\ /changeNote:"automated release"
     }
 }
