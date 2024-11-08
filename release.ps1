@@ -6,7 +6,7 @@ $HEMTT = "C:\Users\zuedev\git\github.com\zuedev\HEMTT_Devcontainer\target\x86_64
 
 # run HEMTT release if mod has a .hemtt/project.toml file
 if (Test-Path ".hemtt\project.toml") {
-    $HEMTT release
+    & $HEMTT release
 
     # use Arma 3 Tools to publish if mod has a steam\workshop_id.txt file
     if (Test-Path "steam\workshop_id.txt") {
