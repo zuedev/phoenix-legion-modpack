@@ -1,5 +1,5 @@
 class CfgPatches {
-    class PHOENIX_reaction_PHOENIX_rf_patch {
+    class phoenix_legion_rf_patch {
         addonRootClass = "phoenix_legion";
         
         requiredAddons[] = {
