@@ -1,5 +1,5 @@
 name = "Phoenix Legion Modpack"
-prefix = "Phoenix_Legion_Modpack"
+prefix = "phoenix_legion_modpack"
 mainprefix = "z"
 
 [version]
@@ -17,15 +17,6 @@ include = [
 workshop = [
     "2369477168", # Advanced Developer Tools
     "450814997", # CBA_A3
-]
-
-[hemtt.launch.test]
-extends = "dev"
-workshop = [
-    "463939057", # ACE3
-]
-parameters = [
-    "-mod=ws;rf;",
 ]
 
 [hemtt.launch.all]

@@ -4,7 +4,7 @@ class CfgVehicles {
     class PHOENIX_Offroad_BASE: Offroad_01_military_base_F {
         scope = private;
         displayName = "Offroad";
-        crew = "PHOENIX_Wolfpack_Rifleman";
+        crew = "PHOENIX_Infantry_Rifleman";
         faction = "PHOENIX_Reserves";
         side = 1;
         textureList[] = {};

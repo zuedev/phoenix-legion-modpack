@@ -1,8 +1,8 @@
 class CfgPatches {
-    class phoenix_legion {
+    class phoenix_legion_modpack_phoenix_legion {
         authors[] = {"Phoenix Legion", "zuedev"};
         authorUrl = "https://phoenix-legion.unnamed.group";
-        name = "Phoenix_Legion_Modpack_phoenix_legion";
+        name = "phoenix_legion_modpack_phoenix_legion";
         requiredAddons[] = {
             "A3_Characters_F",
             "A3_Characters_F_Exp",

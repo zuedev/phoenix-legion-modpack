@@ -1,13 +1,13 @@
 class CfgPatches {
     class phoenix_legion_ace3_patch {
-        addonRootClass = "phoenix_legion";
+        addonRootClass = "phoenix_legion_modpack_phoenix_legion";
         
         requiredAddons[] = {
-            "phoenix_legion",
+            "phoenix_legion_modpack_phoenix_legion",
             "ace_main",
         };
         units[] = {
-            "PHOENIX_Reserves_Unarmed"
+            "PHOENIX_Infantry_Unarmed"
         };
         
         skipWhenMissingDependencies = 1;
@@ -17,9 +17,9 @@ class CfgPatches {
 #include "\z\phoenix_legion_modpack\addons\core\macros.hpp"
 
 class CfgVehicles {
-    class B_Survivor_F;
+    class PHOENIX_Infantry_Base;
 
-    class PHOENIX_Reserves_Unarmed: B_Survivor_F {
+    class PHOENIX_Infantry_Unarmed: PHOENIX_Infantry_Base {
         items[] += {
             x10("ACE_elasticBandage"),
             x10("ACE_quikclot"),

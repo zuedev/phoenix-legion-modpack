@@ -1,10 +1,8 @@
 class CfgVehicles {
     class PHOENIX_Infantry_Base;
 
-    class PHOENIX_Reserves_Unarmed: PHOENIX_Infantry_Base {
-        scope = public;
+    class PHOENIX_Infantry_Unarmed: PHOENIX_Infantry_Base {
         displayName = "Unarmed";
-        faction = "PHOENIX_Reserves";
         items[] += {
             "FirstAidKit"
         };
@@ -13,8 +11,9 @@ class CfgVehicles {
             "ItemCompass",
             "ItemWatch",
             "ItemRadio",
-            "ItemGPS"
+            "ItemGPS",
+            "PHOENIX_Combat_Helmet_Medium",
+            "PHOENIX_Plate_Carrier_Medium"
         };
-        uniformClass = "PHOENIX_Combat_Fatigues_Black_Splinter";
     };
 };

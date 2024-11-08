@@ -2,8 +2,8 @@ class CfgVehicles {
     class B_Survivor_F;
 
     class PHOENIX_Infantry_Base: B_Survivor_F {
-        scope = protected;
-        displayName = "Unarmed";
+        scope = public;
+        displayName = "Base";
         faction = "PHOENIX_Reserves";
         items[] = {};
         linkedItems[] += {

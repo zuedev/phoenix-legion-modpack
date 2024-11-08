@@ -4,7 +4,7 @@ class CfgVehicles {
     class PHOENIX_Wiesel_Cannon_BASE: LT_01_cannon_base_F {
         scope = private;
         displayName = "Wiesel (Cannon)";
-        crew = "PHOENIX_Wolfpack_Rifleman";
+        crew = "PHOENIX_Infantry_Rifleman";
         faction = "PHOENIX_Reserves";
         side = 1;
         textureList[] = {};

@@ -8,7 +8,7 @@ class CfgVehicles {
     class PHOENIX_Orca_UP: PHOENIX_Orca_UP_PARENTPROXY {
         scope = public;
         displayName = "Orca (UP)";
-        crew = "PHOENIX_Wolfpack_Rifleman";
+        crew = "PHOENIX_Infantry_Rifleman";
         faction = "PHOENIX_Reserves";
         side = 1;
         hiddenSelectionsTextures[] = {

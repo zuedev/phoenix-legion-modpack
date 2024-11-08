@@ -1,9 +1,9 @@
 class CfgPatches {
     class phoenix_legion_ws_patch {
-        addonRootClass = "phoenix_legion";
+        addonRootClass = "phoenix_legion_modpack_phoenix_legion";
         
         requiredAddons[] = {
-            "phoenix_legion",
+            "phoenix_legion_modpack_phoenix_legion",
             "Air_F_lxWS_Heli_Light_02"
         };
         units[] = {

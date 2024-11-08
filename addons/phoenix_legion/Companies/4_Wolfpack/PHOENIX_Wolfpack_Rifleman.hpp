@@ -1,20 +1,7 @@
 class CfgVehicles {
-    class PHOENIX_Infantry_Base;
+    class PHOENIX_Infantry_Rifleman;
 
-    class PHOENIX_Wolfpack_Rifleman: PHOENIX_Infantry_Base {
-        scope = public;
-        displayName = "Rifleman";
+    class PHOENIX_Wolfpack_Rifleman: PHOENIX_Infantry_Rifleman {
         faction = "PHOENIX_Wolfpack";
-        linkedItems[] += {
-            "PHOENIX_Combat_Helmet_Medium",
-            "PHOENIX_Plate_Carrier_Medium"
-        };
-        backpack = "B_ViperHarness_blk_F";
-        magazines[] = {
-            x10("30Rnd_556x45_Stanag_Tracer_Red"),
-            x2("HandGrenade"),
-            x2("SmokeShell")
-        };
-        weapons[] += {"PHOENIX_SPAR_MRCO"};
     };
 };

@@ -1,11 +1,11 @@
 class CfgPatches {
     class phoenix_legion_rf_patch {
-        addonRootClass = "phoenix_legion";
+        addonRootClass = "phoenix_legion_modpack_phoenix_legion";
         
         requiredAddons[] = {
             "RF_Air_heli_medium_ec",
             "RF_Vehicles_Pickup_01",
-            "phoenix_legion"
+            "phoenix_legion_modpack_phoenix_legion"
         };
         units[] = {
             "PHOENIX_Cougar_Gunship",

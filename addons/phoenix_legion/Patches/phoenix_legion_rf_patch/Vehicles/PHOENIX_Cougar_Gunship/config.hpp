@@ -37,7 +37,7 @@ class CfgVehicles {
             "\z\phoenix_legion_modpack\addons\phoenix_legion\Patches\phoenix_legion_rf_patch\Vehicles\PHOENIX_Cougar_Gunship\as332_int_cargo_co_PHOENIX.paa"
         };
         textureList[] = {};
-        crew = "PHOENIX_Wolfpack_Rifleman";
+        crew = "PHOENIX_Infantry_Rifleman";
         faction = "PHOENIX_Reserves";
         side = 1;
 
