@@ -5,7 +5,7 @@ class CfgVehicles {
         scope = private;
         displayName = "Wiesel (AT)";
         crew = "PHOENIX_Wolfpack_Rifleman";
-        faction = "PHOENIX_Unsorted";
+        faction = "PHOENIX_Reserves";
         side = 1;
         textureList[] = {};
     };

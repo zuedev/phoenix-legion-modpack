@@ -19,7 +19,7 @@ class CfgPatches {
 class CfgVehicles {
     class B_Survivor_F;
 
-    class PHOENIX_Unsorted_Unarmed: B_Survivor_F {
+    class PHOENIX_Reserves_Unarmed: B_Survivor_F {
         items[] += {
             "ItemcTabHCam",
             "ItemAndroidMisc"

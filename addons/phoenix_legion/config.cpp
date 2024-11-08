@@ -2,7 +2,7 @@ class CfgPatches {
     class phoenix_legion {
         authors[] = {"Phoenix Legion", "zuedev"};
         authorUrl = "https://phoenix-legion.unnamed.group";
-        name = "phoenix_legion";
+        name = "Phoenix_Legion_Modpack_phoenix_legion";
         requiredAddons[] = {
             "A3_Characters_F",
             "A3_Characters_F_Exp",
@@ -14,11 +14,18 @@ class CfgPatches {
         };
         requiredVersion = 2.16;
         units[] = {
-            "PHOENIX_Wolfpack_Unarmed",
+            // generic units
+            "PHOENIX_Infantry_Base",
+
+            // 4th Wolfpack Company
             "PHOENIX_Wolfpack_Rifleman",
             "PHOENIX_Wolfpack_Grenadier",
             "PHOENIX_Wolfpack_Autorifleman",
 
+            // 99th Reserves
+            "PHOENIX_Reserves_Unarmed",
+
+            // generic vehicles
             "PHOENIX_Offroad_Black",
             "PHOENIX_Offroad_Black_Splinter",
             "PHOENIX_Offroad_Comms_Black",
@@ -33,6 +40,7 @@ class CfgPatches {
 #include "\z\phoenix_legion_modpack\addons\core\macros.hpp"
 #include "CfgFactionClasses.hpp"
 #include "Gear/_index.hpp"
-#include "Companies/_index.hpp"
 #include "Weapons/_index.hpp"
+#include "Units/_index.hpp"
 #include "Vehicles/_index.hpp"
+#include "Companies/_index.hpp"

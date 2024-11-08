@@ -9,7 +9,7 @@ class CfgVehicles {
         scope = public;
         displayName = "Orca (UP)";
         crew = "PHOENIX_Wolfpack_Rifleman";
-        faction = "PHOENIX_Unsorted";
+        faction = "PHOENIX_Reserves";
         side = 1;
         hiddenSelectionsTextures[] = {
             "\A3\Air_F\Heli_Light_02\Data\Heli_Light_02_ext_CO.paa",

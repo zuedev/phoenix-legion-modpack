@@ -1,18 +1,12 @@
 class CfgVehicles {
     class B_Survivor_F;
 
-    class PHOENIX_Unsorted_Unarmed: B_Survivor_F {
+    class PHOENIX_Infantry_Base: B_Survivor_F {
+        scope = protected;
         displayName = "Unarmed";
-        faction = "PHOENIX_Unsorted";
-        items[] = {
-            "FirstAidKit"
-        };
-        linkedItems[] = {
-            "ItemMap",
-            "ItemCompass",
-            "ItemWatch",
-            "ItemRadio",
-            "ItemGPS",
+        faction = "PHOENIX_Reserves";
+        items[] = {};
+        linkedItems[] += {
             "PHOENIX_Balaclava_With_Combat_Goggles"
         };
         uniformClass = "PHOENIX_Combat_Fatigues_Black_Splinter";

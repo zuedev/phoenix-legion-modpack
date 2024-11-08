@@ -1,7 +1,8 @@
 class CfgVehicles {
-    class PHOENIX_Unsorted_Unarmed;
+    class PHOENIX_Infantry_Base;
 
-    class PHOENIX_Wolfpack_Grenadier: PHOENIX_Unsorted_Unarmed {
+    class PHOENIX_Wolfpack_Grenadier: PHOENIX_Infantry_Base {
+        scope = public;
         displayName = "Grenadier";
         faction = "PHOENIX_Wolfpack";
         linkedItems[] += {

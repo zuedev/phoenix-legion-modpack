@@ -5,7 +5,7 @@ class CfgFactionClasses {
         displayName = "Phoenix Legion, 4th Company, Wolfpack (Motorized)";
     };
 
-    class PHOENIX_Unsorted: BLU_F {
-        displayName = "Phoenix Legion, 99th Company, Unsorted (Unsorted)";
+    class PHOENIX_Reserves: BLU_F {
+        displayName = "Phoenix Legion, 99th Company, Reserves (Unsorted)";
     };
 };

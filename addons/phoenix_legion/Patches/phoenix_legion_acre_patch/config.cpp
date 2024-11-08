@@ -7,7 +7,7 @@ class CfgPatches {
             "acre_main"
         };
         units[] = {
-            "PHOENIX_Unsorted_Unarmed"
+            "PHOENIX_Reserves_Unarmed"
         };
         
         skipWhenMissingDependencies = 1;
@@ -19,7 +19,7 @@ class CfgPatches {
 class CfgVehicles {
     class B_Survivor_F;
 
-    class PHOENIX_Unsorted_Unarmed: B_Survivor_F {
+    class PHOENIX_Reserves_Unarmed: B_Survivor_F {
         items[] += {
             "ACRE_PRC343"
         };

@@ -5,7 +5,7 @@ class CfgVehicles {
         scope = private;
         displayName = "Wiesel (Cannon)";
         crew = "PHOENIX_Wolfpack_Rifleman";
-        faction = "PHOENIX_Unsorted";
+        faction = "PHOENIX_Reserves";
         side = 1;
         textureList[] = {};
         animationList[] = {"showTools",1,"showCamonetHull",0,"showBags",1,"showSLATHull",1};
