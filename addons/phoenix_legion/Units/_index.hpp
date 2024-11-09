@@ -3,3 +3,4 @@
 #include "PHOENIX_Infantry_Rifleman.hpp"
 #include "PHOENIX_Infantry_Grenadier.hpp"
 #include "PHOENIX_Infantry_Autorifleman.hpp"
+#include "PHOENIX_Infantry_Marksman.hpp"
