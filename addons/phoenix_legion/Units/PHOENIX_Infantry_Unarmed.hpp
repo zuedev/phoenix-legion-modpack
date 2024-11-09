@@ -15,5 +15,6 @@ class CfgVehicles {
             "PHOENIX_Combat_Helmet_Medium",
             "PHOENIX_Plate_Carrier_Medium"
         };
+        backpack = "B_ViperHarness_blk_F";
     };
 };

@@ -7,7 +7,6 @@ class CfgVehicles {
             "PHOENIX_Combat_Helmet_Medium",
             "PHOENIX_Plate_Carrier_Medium"
         };
-        backpack = "B_ViperHarness_blk_F";
         magazines[] = {
             x5("200Rnd_556x45_Box_Tracer_Red_F"),
             x2("HandGrenade"),
