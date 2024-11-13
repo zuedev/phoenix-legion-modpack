@@ -3,10 +3,6 @@ class CfgVehicles {
 
     class PHOENIX_Infantry_Autorifleman: PHOENIX_Infantry_Unarmed {
         displayName = "Autorifleman";
-        linkedItems[] += {
-            "PHOENIX_Combat_Helmet_Medium",
-            "PHOENIX_Plate_Carrier_Medium"
-        };
         magazines[] = {
             "200Rnd_556x45_Box_Tracer_Red_F"
         };
