@@ -6,7 +6,7 @@ class CfgVehicles {
         magazines[] = {
             "200Rnd_556x45_Box_Tracer_Red_F"
         };
-        weapons[] += {"PHOENIX_LIM_MRCO"};
+        weapons[] += {"PHOENIX_Infantry_Autorifleman"};
         backpack = "PHOENIX_Infantry_Autorifleman_Backpack";
     };
 
@@ -27,6 +27,19 @@ class CfgVehicles {
             class _xx_SmokeShell {
                 magazine = "SmokeShell";
                 count = 2;
+            };
+        };
+    };
+};
+
+class CfgWeapons {
+    class PHOENIX_LIM;
+    
+    class PHOENIX_Infantry_Autorifleman_PHOENIX_LIM: PHOENIX_LIM {
+        class LinkedItems {
+            class LinkedItemsOptic {
+                slot = "CowsSlot";
+                item = "optic_MRCO";
             };
         };
     };

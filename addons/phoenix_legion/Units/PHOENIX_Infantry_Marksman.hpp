@@ -7,7 +7,7 @@ class CfgVehicles {
             "30Rnd_65x39_caseless_green_mag_Tracer",
             "10Rnd_50BW_Mag_F"
         };
-        weapons[] += {"PHOENIX_ARX_DMS"};
+        weapons[] += {"PHOENIX_Infantry_Marksman_PHOENIX_ARX"};
         backpack = "PHOENIX_Infantry_Marksman_Backpack";
     };
 
@@ -32,6 +32,21 @@ class CfgVehicles {
             class _xx_SmokeShell {
                 magazine = "SmokeShell";
                 count = 2;
+            };
+        };
+    };
+};
+
+class CfgWeapons {
+    class PHOENIX_ARX;
+
+    class PHOENIX_Infantry_Marksman_PHOENIX_ARX: PHOENIX_ARX {
+        scope = protected;
+
+        class LinkedItems {
+            class LinkedItemsOptic {
+                slot = "CowsSlot";
+                item = "optic_DMS";
             };
         };
     };

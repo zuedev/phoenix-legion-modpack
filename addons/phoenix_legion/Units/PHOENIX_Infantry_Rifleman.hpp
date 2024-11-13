@@ -6,7 +6,7 @@ class CfgVehicles {
         magazines[] = {
             "30Rnd_556x45_Stanag_Tracer_Red"
         };
-        weapons[] += {"PHOENIX_SPAR_MRCO"};
+        weapons[] += {"PHOENIX_Infantry_Rifleman_PHOENIX_SPAR"};
         backpack = "PHOENIX_Infantry_Rifleman_Backpack";
     };
 
@@ -27,6 +27,19 @@ class CfgVehicles {
             class _xx_SmokeShell {
                 magazine = "SmokeShell";
                 count = 2;
+            };
+        };
+    };
+};
+
+class CfgWeapons {
+    class PHOENIX_SPAR;
+    
+    class PHOENIX_Infantry_Rifleman_PHOENIX_SPAR: PHOENIX_SPAR {
+        class LinkedItems {
+            class LinkedItemsOptic {
+                slot = "CowsSlot";
+                item = "optic_MRCO";
             };
         };
     };

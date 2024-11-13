@@ -7,7 +7,7 @@ class CfgVehicles {
             "30Rnd_556x45_Stanag_Tracer_Red"
         };
         weapons[] += {"PHOENIX_SPAR_GL_MRCO"};
-        backpack = "PHOENIX_Infantry_Grenadier_Backpack";
+        backpack = "PHOENIX_Infantry_Grenadier_PHOENIX_SPAR_GL";
     };
 
     class B_ViperHarness_blk_F;
@@ -31,6 +31,19 @@ class CfgVehicles {
             class _xx_SmokeShell {
                 magazine = "SmokeShell";
                 count = 2;
+            };
+        };
+    };
+};
+
+class CfgWeapons {
+    class PHOENIX_SPAR_GL;
+    
+    class PHOENIX_Infantry_Grenadier_PHOENIX_SPAR_GL: PHOENIX_SPAR_GL {
+        class LinkedItems {
+            class LinkedItemsOptic {
+                slot = "CowsSlot";
+                item = "optic_MRCO";
             };
         };
     };
