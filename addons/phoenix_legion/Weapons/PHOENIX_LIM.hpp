@@ -14,5 +14,8 @@ class CfgWeapons {
 
         // auto reload feature
         autoReload = 1;
+        reloadAction= "";
+        reloadMagazineSound[] = {};
+        magazineReloadTime = 0;
     };
 };
