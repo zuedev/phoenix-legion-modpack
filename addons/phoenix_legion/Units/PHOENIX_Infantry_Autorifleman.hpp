@@ -41,6 +41,10 @@ class CfgWeapons {
                 slot = "CowsSlot";
                 item = "optic_MRCO";
             };
+            class LinkedItemsAcc {
+                slot = "PointerSlot";
+                item = "acc_pointer_IR";
+            };
         };
     };
 };
