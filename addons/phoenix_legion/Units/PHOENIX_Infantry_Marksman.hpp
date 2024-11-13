@@ -4,9 +4,10 @@ class CfgVehicles {
     class PHOENIX_Infantry_Marksman: PHOENIX_Infantry_Unarmed {
         displayName = "Marksman";
         magazines[] = {
-            "10Rnd_338_Mag"
+            "30Rnd_65x39_caseless_green_mag_Tracer",
+            "10Rnd_50BW_Mag_F"
         };
-        weapons[] += {"PHOENIX_MAR_DMS"};
+        weapons[] += {"PHOENIX_ARX_DMS"};
         backpack = "PHOENIX_Infantry_Marksman_Backpack";
     };
 
@@ -16,9 +17,13 @@ class CfgVehicles {
         scope = protected;
 
         class TransportMagazines {
-            class _xx_10Rnd_338_Mag {
-                magazine = "10Rnd_338_Mag";
-                count = 10;
+            class _xx_30Rnd_65x39_caseless_green_mag_Tracer {
+                magazine = "30Rnd_65x39_caseless_green_mag_Tracer";
+                count = 8;
+            };
+            class _xx_10Rnd_50BW_Mag_F {
+                magazine = "10Rnd_50BW_Mag_F";
+                count = 4;
             };
             class _xx_HandGrenade {
                 magazine = "HandGrenade";
