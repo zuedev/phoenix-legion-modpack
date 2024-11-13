@@ -40,10 +40,16 @@ class CfgWeapons {
     class PHOENIX_SPAR_GL;
     
     class PHOENIX_Infantry_Grenadier_PHOENIX_SPAR_GL: PHOENIX_SPAR_GL {
+        scope = protected;
+
         class LinkedItems {
             class LinkedItemsOptic {
                 slot = "CowsSlot";
                 item = "optic_MRCO";
+            };
+            class LinkedItemsAcc {
+                slot = "PointerSlot";
+                item = "acc_pointer_IR";
             };
         };
     };

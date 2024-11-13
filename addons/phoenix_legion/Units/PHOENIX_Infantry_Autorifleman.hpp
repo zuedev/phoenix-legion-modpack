@@ -36,6 +36,8 @@ class CfgWeapons {
     class PHOENIX_LIM;
     
     class PHOENIX_Infantry_Autorifleman_PHOENIX_LIM: PHOENIX_LIM {
+        scope = protected;
+
         class LinkedItems {
             class LinkedItemsOptic {
                 slot = "CowsSlot";

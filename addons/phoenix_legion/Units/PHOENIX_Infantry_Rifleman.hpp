@@ -36,10 +36,16 @@ class CfgWeapons {
     class PHOENIX_SPAR;
     
     class PHOENIX_Infantry_Rifleman_PHOENIX_SPAR: PHOENIX_SPAR {
+        scope = protected;
+
         class LinkedItems {
             class LinkedItemsOptic {
                 slot = "CowsSlot";
                 item = "optic_MRCO";
+            };
+            class LinkedItemsAcc {
+                slot = "PointerSlot";
+                item = "acc_pointer_IR";
             };
         };
     };
