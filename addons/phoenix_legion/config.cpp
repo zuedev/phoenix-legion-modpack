@@ -38,7 +38,6 @@ class CfgPatches {
 };
 
 #include "\z\phoenix_legion_modpack\addons\core\macros.hpp"
-#include "CfgFactionClasses.hpp"
 #include "Gear/_index.hpp"
 #include "Weapons/_index.hpp"
 #include "Units/_index.hpp"

@@ -7,12 +7,31 @@ class CfgVehicles {
             "PHOENIX_Combat_Helmet_Medium",
             "PHOENIX_Plate_Carrier_Medium"
         };
-        backpack = "B_ViperHarness_blk_F";
         magazines[] = {
-            x5("200Rnd_556x45_Box_Tracer_Red_F"),
-            x2("HandGrenade"),
-            x2("SmokeShell")
+            "200Rnd_556x45_Box_Tracer_Red_F"
         };
         weapons[] += {"PHOENIX_LIM_MRCO"};
+        backpack = "PHOENIX_Infantry_Autorifleman_Backpack";
+    };
+
+    class B_ViperHarness_blk_F;
+
+    class PHOENIX_Infantry_Autorifleman_Backpack: B_ViperHarness_blk_F {
+        scope = protected;
+
+        class TransportMagazines {
+            class _xx_200Rnd_556x45_Box_Tracer_Red_F {
+                magazine = "200Rnd_556x45_Box_Tracer_Red_F";
+                count = 5;
+            };
+            class _xx_HandGrenade {
+                magazine = "HandGrenade";
+                count = 2;
+            };
+            class _xx_SmokeShell {
+                magazine = "SmokeShell";
+                count = 2;
+            };
+        };
     };
 };
