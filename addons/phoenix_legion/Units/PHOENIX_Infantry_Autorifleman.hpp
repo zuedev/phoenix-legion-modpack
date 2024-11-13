@@ -6,7 +6,7 @@ class CfgVehicles {
         magazines[] = {
             "200Rnd_556x45_Box_Tracer_Red_F"
         };
-        weapons[] += {"PHOENIX_Infantry_Autorifleman"};
+        weapons[] += {"PHOENIX_Infantry_Autorifleman_PHOENIX_LIM"};
         backpack = "PHOENIX_Infantry_Autorifleman_Backpack";
     };
 

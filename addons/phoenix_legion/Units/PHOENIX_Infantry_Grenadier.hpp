@@ -6,8 +6,8 @@ class CfgVehicles {
         magazines[] = {
             "30Rnd_556x45_Stanag_Tracer_Red"
         };
-        weapons[] += {"PHOENIX_SPAR_GL_MRCO"};
-        backpack = "PHOENIX_Infantry_Grenadier_PHOENIX_SPAR_GL";
+        weapons[] += {"PHOENIX_Infantry_Grenadier_PHOENIX_SPAR_GL"};
+        backpack = "PHOENIX_Infantry_Grenadier_Backpack";
     };
 
     class B_ViperHarness_blk_F;
