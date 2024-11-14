@@ -9,8 +9,8 @@ class CfgWeapons {
     class PHOENIX_Track_Suit: PHOENIX_Track_Suit_PARENTPROXY {
         scope = public;
         displayName = "PHOENIX Track Suit";
-        hiddenSelectionsTextures[] = {"\z\phoenix_legion_modpack\addons\phoenix_legion\Gear\PHOENIX_Track_Suit\Gorka_01_Khaki_CO_PHOENIX.paa"};
-        picture = "\z\phoenix_legion_modpack\addons\phoenix_legion\Gear\PHOENIX_Track_Suit\icon_U_O_R_Gorka_01_F_ca_PHOENIX.paa";
+        hiddenSelectionsTextures[] = {"\z\phoenix_legion_modpack\addons\phoenix_legion_modpack_phoenix_legion\Gear\PHOENIX_Track_Suit\Gorka_01_Khaki_CO_PHOENIX.paa"};
+        picture = "\z\phoenix_legion_modpack\addons\phoenix_legion_modpack_phoenix_legion\Gear\PHOENIX_Track_Suit\icon_U_O_R_Gorka_01_F_ca_PHOENIX.paa";
 
         class ItemInfo: ItemInfo {
             mass = 0;
@@ -23,7 +23,7 @@ class CfgVehicles {
     class O_R_Gorka_F;
 
     class PHOENIX_Track_Suit_Soldier: O_R_Gorka_F {
-        hiddenSelectionsTextures[] = {"\z\phoenix_legion_modpack\addons\phoenix_legion\Gear\PHOENIX_Track_Suit\Gorka_01_Khaki_CO_PHOENIX.paa"};
-        picture = "\z\phoenix_legion_modpack\addons\phoenix_legion\Gear\PHOENIX_Track_Suit\icon_U_O_R_Gorka_01_F_ca_PHOENIX.paa";
+        hiddenSelectionsTextures[] = {"\z\phoenix_legion_modpack\addons\phoenix_legion_modpack_phoenix_legion\Gear\PHOENIX_Track_Suit\Gorka_01_Khaki_CO_PHOENIX.paa"};
+        picture = "\z\phoenix_legion_modpack\addons\phoenix_legion_modpack_phoenix_legion\Gear\PHOENIX_Track_Suit\icon_U_O_R_Gorka_01_F_ca_PHOENIX.paa";
     };
 };

@@ -29,12 +29,12 @@ class CfgVehicles {
         scope = public;
         displayName = "Cougar Gunship";
         hiddenSelectionsTextures[] = {
-            "\z\phoenix_legion_modpack\addons\phoenix_legion\Patches\phoenix_legion_rf_patch\Vehicles\PHOENIX_Cougar_Gunship\as332_exterior_03_ldf_co_PHOENIX.paa",
-            "\z\phoenix_legion_modpack\addons\phoenix_legion\Patches\phoenix_legion_rf_patch\Vehicles\PHOENIX_Cougar_Gunship\as332_int_cargo_co_PHOENIX.paa",
+            "\z\phoenix_legion_modpack\addons\phoenix_legion_modpack_phoenix_legion\Patches\phoenix_legion_rf_patch\Vehicles\PHOENIX_Cougar_Gunship\as332_exterior_03_ldf_co_PHOENIX.paa",
+            "\z\phoenix_legion_modpack\addons\phoenix_legion_modpack_phoenix_legion\Patches\phoenix_legion_rf_patch\Vehicles\PHOENIX_Cougar_Gunship\as332_int_cargo_co_PHOENIX.paa",
             "#(rgb,1024,1024,1)ui('lxRF_MFDMinimap','lxRF_MFDMinimap')",
-            "\z\phoenix_legion_modpack\addons\phoenix_legion\Patches\phoenix_legion_rf_patch\Vehicles\PHOENIX_Cougar_Gunship\as332_adds_03_ldf_co_PHOENIX.paa",
-            "\z\phoenix_legion_modpack\addons\phoenix_legion\Patches\phoenix_legion_rf_patch\Vehicles\PHOENIX_Cougar_Gunship\as332_exterior_03_ldf_co_PHOENIX.paa",
-            "\z\phoenix_legion_modpack\addons\phoenix_legion\Patches\phoenix_legion_rf_patch\Vehicles\PHOENIX_Cougar_Gunship\as332_int_cargo_co_PHOENIX.paa"
+            "\z\phoenix_legion_modpack\addons\phoenix_legion_modpack_phoenix_legion\Patches\phoenix_legion_rf_patch\Vehicles\PHOENIX_Cougar_Gunship\as332_adds_03_ldf_co_PHOENIX.paa",
+            "\z\phoenix_legion_modpack\addons\phoenix_legion_modpack_phoenix_legion\Patches\phoenix_legion_rf_patch\Vehicles\PHOENIX_Cougar_Gunship\as332_exterior_03_ldf_co_PHOENIX.paa",
+            "\z\phoenix_legion_modpack\addons\phoenix_legion_modpack_phoenix_legion\Patches\phoenix_legion_rf_patch\Vehicles\PHOENIX_Cougar_Gunship\as332_int_cargo_co_PHOENIX.paa"
         };
         textureList[] = {};
         crew = "PHOENIX_Infantry_Rifleman";
