@@ -1,4 +1,10 @@
+<img src="icon.png" height="100" />
+
 # Phoenix Legion Modpack
+
+## Setup
+
+Read the dedicated [setup guide](setup.md) to get started.
 
 ## Development
 
