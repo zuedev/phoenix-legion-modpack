@@ -29,5 +29,5 @@ class CfgPatches {
     };
 };
 
-#include "\z\phoenix_legion_modpack\addons\core\macros.hpp"
+#include "\z\phoenix_legion_modpack\addons\phoenix_legion_modpack_core\macros.hpp"
 #include "Vehicles/_index.hpp"

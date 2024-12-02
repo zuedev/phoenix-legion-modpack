@@ -14,7 +14,7 @@ class CfgPatches {
     };
 };
 
-#include "\z\phoenix_legion_modpack\addons\core\macros.hpp"
+#include "\z\phoenix_legion_modpack\addons\phoenix_legion_modpack_core\macros.hpp"
 
 class CfgVehicles {
     class PHOENIX_Infantry_Base;
