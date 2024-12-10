@@ -14,5 +14,4 @@ The original repository is here: https://github.com/zuedev/phoenix-legion-modpac
 
 Here is a list of official mirrors:
 
-- https://gitlab.com/zuedev/phoenix-legion-modpack
 - https://gitea.sovereign.zue.dev/zuedev/phoenix-legion-modpack
